@@ -46,3 +46,15 @@ allprojects {
         }
     }
 }
+
+plugins {
+  id "org.sonarqube" version "6.0.1.5171"
+}
+
+sonar {
+  properties {
+    property "sonar.projectKey", "bahadirpektas_Adjust_android_sdk"
+    property "sonar.organization", "bahadirpektas123321"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
